@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {connect} from 'react-redux';
 import Button from './Button';
-import {gray, orange, red} from "../utils/colors";
+import {gray, orange} from "../utils/colors";
 
 class Deck extends Component {
 

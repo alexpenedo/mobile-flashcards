@@ -5,7 +5,7 @@ import Button from './Button';
 import {receiveDecks} from "../actions";
 import {connect} from 'react-redux';
 import {AppLoading} from "expo";
-import {lighGray, white} from "../utils/colors";
+import {white} from "../utils/colors";
 
 class DeckList extends Component {
     state = {

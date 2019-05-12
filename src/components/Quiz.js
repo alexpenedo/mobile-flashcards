@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
-import {getDeck} from '../utils/api';
+import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import Button from './Button';
 import {clearLocalNotifications, setLocalNotification} from '../utils/helper';
 import {connect} from "react-redux";
